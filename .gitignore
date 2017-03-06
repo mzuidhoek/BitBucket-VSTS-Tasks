@@ -1,0 +1,5 @@
+node_modules/
+typings/
+
+# ignore our generated binary
+*.vsix

@@ -1,0 +1,26 @@
+{
+  "id": "4bd8672d-0ead-445a-892b-64935a650b5d",
+  "name": "bitbucket-buildresult",
+  "friendlyName": "BitBucket Publish Build Result",
+  "description": "Uploads the build status to the BitBucket Repository",
+  "category": "Package",
+  "instanceNameFormat": "Publish Build Results to BitBucket",
+  "author": "Mike Zuidhoek",
+  "version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 0
+  },
+  "inputs": [{
+    "name": "bitbucketRepository",
+    "type": "connectedService:Generic",
+    "label": "Connection to the BitBucket repository",
+    "required": true,
+    "defaultValue": "NuGet.config"
+  }],
+  "execution": {
+    "Node": {
+      "target": "index.js"
+    }
+  }
+}

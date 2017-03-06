@@ -1,0 +1,15 @@
+{
+  "name": "bitbucket-buildresult",
+  "version": "0.1.0",
+  "description": "Publishes the build result to the BitBucket repository",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/mzuidhoek/BitBucket-VSTS-Tasks.git",
+    "type": "git"
+  },
+  "author": "Mike Zuidhoek",
+  "license": "MIT",
+  "dependencies": {
+    "vsts-task-lib": "^1.1.0"
+  }
+}
